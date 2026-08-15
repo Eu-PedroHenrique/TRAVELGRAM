@@ -1,0 +1,28 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  line-height: 0;
+  padding-block: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
+  padding-block: 8px;
+}
+
+/* se usar uma imagem diferente da que o professor está utilizando é importante usar uma função que se chama: 
+object-fit (encaixe do objeto) e usar o tipo COVER, ou seja, vai cobrir toda a área interna do quadrado.
+
+Isso serve para não deixar a imagem esticada e feia
+e por fim se usa um border-radius: 50% para arredondar as bordas.
+*/
+nav ul li:last-child img {
+  width: 40px;
+  height: 40px;
+}
